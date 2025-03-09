@@ -1,12 +1,40 @@
-# React + Vite
+# 📩 Email Writer Assistant – Browser Extension  
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## 🚀 Overview  
+The **Email Writer Assistant** is a browser extension designed to help users generate smart, context-aware email replies efficiently. Whether you need a quick professional response or a personalized message, this extension streamlines the email reply process with AI-powered suggestions and customizable templates.  
 
-Currently, two official plugins are available:
+## ✨ Features  
+- **AI-Powered Email Replies** – Generate context-based responses instantly.  
+- **Predefined Reply Templates** – Choose from commonly used responses.  
+- **Tone Customization** – Adjust the tone (formal, casual, friendly, etc.).  
+- **Grammar & Clarity Check** – Ensure professional and polished replies.  
+- **Seamless Integration** – Works with Gmail and other web-based email clients.  
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🛠️ Tech Stack  
+- **Frontend**: HTML, CSS, JavaScript  
+- **Backend**: Spring Boot (if applicable)  
+- **AI Integration**: Gemini API (or similar NLP model)  
 
-## Expanding the ESLint configuration
+## 📖 Installation Guide  
+### 1️⃣ Clone the Repository  
+```bash
+git clone https://github.com/yourusername/email-writer-extension.git
+cd email-writer-extension
+```
 
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+### 2️⃣ Load the Extension in Your Browser  
+1. Open **Chrome** and navigate to `chrome://extensions/`.  
+2. Enable **Developer Mode** (top-right corner).  
+3. Click **"Load Unpacked"** and select the project folder.  
+4. The extension will now be available in your browser toolbar!  
+
+## 🎯 How to Use  
+1. Open Gmail/Outlook.  
+2. Click the **Email Writer Assistant** extension icon.  
+3. Select **"Generate Reply"** or choose a template.  
+4. Customize your response and insert it into the email.  
+
+## 🔥 Future Enhancements  
+- Support for multiple email platforms.  
+- Smart learning from past replies.  
+- Voice-to-text email composition. 
